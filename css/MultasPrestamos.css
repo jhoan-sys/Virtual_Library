@@ -1,10 +1,8 @@
-@font-face {
-    font-family: literata-ExtraLight;
-    src: url('fuentes/Literata-ExtraLight.ttf');
-}
+@import url(../css/fonts.css);
+@import url(../css/inicio.css);
+
 body {
     font-family: literata-ExtraLight;
-    ;
     margin: 0;
     line-height: 1.6;
     background-color: #fff;
@@ -53,7 +51,7 @@ nav ul {
 }
 
 nav ul li a {
-    color:#fff;
+    color:#000;
     text-decoration: none;
     padding: 0.5em 1em;
     border-radius: 5px;
@@ -301,42 +299,4 @@ footer {
     color: rgba(255, 255, 255, 0.7);
 }
 
-@media (max-width: 768px) {
-    header {
-        flex-direction: column;
-        text-align: center;
-        padding: 20px;
-    }
-    
-    nav ul {
-        flex-direction: column;
-        gap: 10px;
-        margin-top: 20px;
-    }
-    
-    .banner-text h1 {
-        font-size: 2em;
-    }
-    
-    .multas-info {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-    }
-    
-    .prestamos-contenedor {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-    }
-    
-    .footer-contenido {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-    }
-    
-    .social-icons {
-        justify-content: center;
-    }
-}
+

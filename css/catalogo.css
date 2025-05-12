@@ -1,4 +1,5 @@
-@import url(estilos.css);
+@import url(../css/fonts.css);
+@import url(../css/inicio.css);
 
 /* Catálogo de libros */
 main {
