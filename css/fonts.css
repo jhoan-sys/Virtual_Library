@@ -1,0 +1,84 @@
+@font-face {
+    font-family: Literata-Black;
+    src: url(../font/Literata-Black.ttf);
+}
+
+@font-face {
+    font-family: Literata-BlackItalic;
+    src: url(../font/Literata-BlackItalic.ttf);
+}
+
+@font-face {
+    font-family: Literata-ExtraBold;
+    src: url(../font/Literata-Bold.ttf);
+}
+
+@font-face {
+    font-family: Literata-ExtraBoldItalic;
+    src: url(../font/Literata-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: Literata-ExtraLight;
+    src: url(../font/Literata-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family: Literata-ExtraLightItalic;
+    src: url(../font/Literata-ExtraLightItalic.ttf)
+}
+
+@font-face {
+    font-family: Literata-Italic-VariableFont;
+    src: url(../font/Literata-Italic-VariableFont_opsz\,wght.ttf);
+}
+
+@font-face {
+    font-family: Literata-Italic;
+    src: url(../font/Literata-Italic.ttf);
+}
+
+@font-face {
+    font-family: Literata-Italic;
+    src: url(../font/Literata-Italic.ttf);
+}
+
+@font-face {
+    font-family: Litarata-Light;
+    src: url(../font/Literata-Light.ttf);
+}
+
+@font-face {
+    font-family: Litarata-LightItalic;
+    src: url(../font/Literata-LightItalic.ttf);
+}
+
+@font-face {
+    font-family: Litarata-Medium;
+    src: url(../font/Literata-Medium.ttf);
+}
+
+@font-face {
+    font-family: Litarata-MediumItalic;
+    src: url(../font/Literata-MediumItalic.ttf);
+}
+
+@font-face {
+    font-family: Litarata-Regular;
+    src: url(../font/Literata-Regular.ttf);
+}
+
+@font-face {
+    font-family: Litarata-SemiBold;
+    src: url(../font/Literata-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Litarata-SemiBoldItalic;
+    src: url(../font/Literata-SemiBoldItalic.ttf);
+}
+
+@font-face {
+    font-family: Litarata-VariableFont;
+    src: url(../font/Literata-VariableFont_opsz\,wght.ttf);
+}
