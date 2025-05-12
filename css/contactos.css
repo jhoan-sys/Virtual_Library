@@ -1,0 +1,76 @@
+@import url(estilos.css);
+
+.contact-container {
+    display: flex;
+    width: 80%;
+    max-width: 1000px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.contact-form, .contact-info {
+    padding: 20px;
+    flex: 1;
+}
+
+.contact-form {
+    background-color: #fff;
+}
+
+.contact-info {
+    background-color: #ad3d3d;
+    background-image: url('background-image.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+h2 {
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #FF6B35;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e65c27;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    margin-right: 10px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+}

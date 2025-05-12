@@ -1,0 +1,40 @@
+@import url(estilos.css);
+
+/* Catálogo de libros */
+main {
+    padding: 40px 20px;
+    background-color: #722020;  
+}
+h2{ 
+    font-size:38px;
+    font-weight: 5.3125rem
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.product-box {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    text-align: center;
+    text-decoration: none;
+}
+
+.product-box img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+}
+
+.product-box:hover {
+    transform: scale(1.05);
+}

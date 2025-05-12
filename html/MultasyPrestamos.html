@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Biblioteca - Prestamos y Multas</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="imagenes/WhatsApp Image 2025-05-06 at 12.22.07 PM.jpeg" alt="Logo de la Biblioteca Comunitaria">
+            <h1>Biblioteca</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">INICIO</a></li>
+                <li><a href="catalogo.html">CATÁLOGO</a></li>
+                <li><a href="MultasyPrestamos.html">PRÉSTAMOS Y MULTAS</a></li>
+                <li><a href="contactos.html">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="prestamos-seccion">
+        <h2>Estado de tus Préstamos</h2>
+        <div class="prestamos-contenedor">
+            <div class="prestamo-card">
+                <h3>El Principito</h3>
+                <p class="fecha">Fecha de devolución: <span>15/05/2025</span></p>
+                <p class="dias-restantes">Días restantes: <span class="verde">7 días</span></p>
+                <button class="renovar-btn">Renovar Préstamo</button>
+            </div>
+            <div class="prestamo-card">
+                <h3>Cien años de soledad</h3>
+                <p class="fecha">Fecha de devolución: <span>10/05/2025</span></p>
+                <p class="dias-restantes">Días restantes: <span class="rojo">Vencido (2 días)</span></p>
+                <p class="multa">Multa acumulada: <span>$5.000</span></p>
+                <button class="pagar-btn">Pagar Multa</button>
+            </div>
+            <div class="prestamo-card">
+                <h3>Harry Potter y la piedra filosofal</h3>
+                <p class="fecha">Fecha de devolución: <span>18/05/2025</span></p>
+                <p class="dias-restantes">Días restantes: <span class="verde">10 días</span></p>
+                <button class="renovar-btn">Renovar Préstamo</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="multas-seccion">
+        <h2>Información sobre Multas</h2>
+        <div class="multas-info">
+            <div>
+                <h3>Política de Multas</h3>
+                <p>Las multas por retraso en la devolución de materiales son de <strong>$1.000 por día</strong> para libros regulares y <strong>$2.000 por día</strong> para materiales especiales.</p>
+                <p>El pago máximo por multa por ítem es de <strong>$20.000</strong>.</p>
+                <p>Puedes pagar tus multas en persona en la biblioteca o a través de nuestro sistema en línea.</p>
+            </div>
+            <div class="multas-resumen">
+                <h3>Resumen de Multas</h3>
+                <p>Multas pendientes: <span>$5.000</span></p>
+                <p>Multas pagadas este mes: <span>$0</span></p>
+                <button class="pagar-todo-btn">Pagar Todas las Multas</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-contenido">
+            <div class="social">
+                <h4>Síguenos</h4>
+                <div class="social-icons">
+                    <a href="#" target="_blank" aria-label="Facebook"><img src="imagenes/facebook.png" alt="Facebook"></a>
+                    <a href="#" target="_blank" aria-label="WhatsApp"><img src="imagenes/whatsapp.png" alt="WhatsApp"></a>
+                    <a href="#" target="_blank" aria-label="Instagram"><img src="imagenes/instagram.png" alt="Instagram"></a>
+                </div>
+            </div>
+            <div class="contacto-info">
+                <h4>Contacto</h4>
+                <p>📌 Calle Falsa 123, Ibagué, Tolima</p>
+                <p>📞 +57 (8) 123 4567</p>
+                <p>✉️ info@bibliotecacomunitaria.com</p>
+            </div>
+            <div class="horario">
+                <h4>Horario de Atención</h4>
+                <p>Lunes a Viernes: 8:00 am - 7:00 pm</p>
+                <p>Sábados: 9:00 am - 2:00 pm</p>
+                <p>Domingos: Cerrado</p>
+            </div>
+        </div>
+        <p class="copyright">&copy; 2025 Biblioteca Comunitaria. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
