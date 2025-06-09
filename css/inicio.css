@@ -1,0 +1,257 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url(../img/Header_banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+/* navegación */
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+}
+
+.logo img {
+    height: 60px;
+    width: 200px;
+    border-radius: 25px;
+    object-fit: contain;
+}
+
+.logo img:hover{
+    background-color: #fff;
+    border-radius: 20px;
+    transform: translateY(-3px);
+    transform: scale(1.1);
+}
+
+nav {
+    display: flex;
+    gap: 40px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+    text-shadow: 0 10px 4px rgba(0, 0, 0, 0.3);
+}
+
+nav a:hover {
+    color: #e71d73;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.login {
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    text-shadow: 0 10px 4px rgba(0, 0, 0, 0.3);
+}
+
+.login:hover {
+    color: #e71d73;
+}
+
+.header-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.red {
+    display: flex;
+    gap: 15px;
+}
+
+.red a,
+.shopping-cart a {
+    color: white;
+    font-size: 30px;
+    transition: all 0.4s ease;
+    text-shadow: 0 10px 4px rgba(0, 0, 0, 0.3);
+}
+
+.red a:hover,
+.shopping-cart a:hover {
+    color: #e71d73;
+    transform: scale(1.1);
+}
+
+/* Contenido central */
+.header-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.info h1 {
+    color: white;
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    max-width: 800px;
+    line-height: 1.2;
+}
+
+.info button {
+    background: linear-gradient(45deg, #e71d73, #e71d73);
+    color: white;
+    border: none;
+    padding: 18px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 25px rgba(76, 175, 80, 0.3);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.info button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 35px rgba(76, 175, 80, 0.4);
+    background: linear-gradient(45deg, #45a049, #4CAF50);
+}
+
+.info button:active {
+    transform: translateY(-1px);
+}
+
+hr{
+    background-color: #000;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    background-color: #38383b;
+}
+
+main section{
+    display: flex;
+    gap: 4px;
+}
+
+article{
+    align-items: center;
+    justify-content: center;
+    /* margin-right: 50px; */
+    margin: 25px;
+}
+
+main img{
+    height: 80dvh;
+    border-radius: 60px;
+    /* background-size: 20%; */
+}
+
+.section-article{
+    display: flex;
+}
+
+.section-article p{
+    text-align: center;
+    font-size: 20px;
+    margin: 5px;
+}
+
+article button{
+    display: flex;
+}
+
+main h1{
+    text-align: center;
+    padding: 20px;
+}
+
+.section-article button{
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+
+
+/* Responsive
+@media (max-width: 768px) {
+    .header-top {
+        flex-direction: column;
+        gap: 15px;
+        padding: 15px;
+    }
+
+    .header-right {
+        gap: 20px;
+    }
+
+    nav {
+        gap: 20px;
+    }
+
+    nav a {
+        font-size: 14px;
+    }
+
+    .info h1 {
+        font-size: 2.5rem;
+    }
+
+    .info button {
+        padding: 15px 30px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .info h1 {
+        font-size: 2rem;
+    }
+
+    .red {
+        gap: 10px;
+    }
+} */
