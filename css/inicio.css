@@ -63,7 +63,12 @@ nav a:hover {
     gap: 30px;
 }
 
-.login {
+.header-right a:hover{
+    color: #e71d73;
+}
+
+.login a{
+    text-decoration: none;
     color: white;
     font-size: 30px;
     font-weight: 500;
@@ -72,7 +77,7 @@ nav a:hover {
     text-shadow: 0 10px 4px rgba(0, 0, 0, 0.3);
 }
 
-.login:hover {
+.login a:hover {
     color: #e71d73;
 }
 
@@ -109,6 +114,13 @@ nav a:hover {
     align-items: center;
     text-align: center;
     padding: 0 20px;
+}
+
+div .info{
+    height: 45vh;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(10px);
 }
 
 .info h1 {
@@ -176,6 +188,7 @@ main img{
 
 .section-article{
     display: flex;
+    gap: 50px;
 }
 
 .section-article p{
@@ -208,6 +221,42 @@ main h1{
     letter-spacing: 1px;
 }
 
+/* Pie de pagina */
+
+footer{
+    list-style: none;
+    padding: 80px 0;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+footer .footer-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-row .footer-links{
+    width: 20%;
+    padding: 0 15px;
+}
+
+.footer-links h4{
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 25px;
+    font-weight: 500;
+    border-bottom: #00c3ff;
+    display: inline-block;
+}
+
+.footer-links ul li a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #bbb;
+    display: block;
+    margin-bottom: 15px;
+    transition: all .3s ease;
+}
 
 
 /* Responsive
