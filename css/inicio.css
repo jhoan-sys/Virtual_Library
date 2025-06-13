@@ -32,7 +32,7 @@ header {
     object-fit: contain;
 }
 
-.logo img:hover{
+.logo img:hover {
     background-color: #fff;
     border-radius: 20px;
     transform: translateY(-3px);
@@ -63,11 +63,11 @@ nav a:hover {
     gap: 30px;
 }
 
-.header-right a:hover{
+.header-right a:hover {
     color: #e71d73;
 }
 
-.login a{
+.login a {
     text-decoration: none;
     color: white;
     font-size: 30px;
@@ -116,7 +116,7 @@ nav a:hover {
     padding: 0 20px;
 }
 
-div .info{
+div .info {
     height: 45vh;
     border-radius: 50px;
     background-color: rgba(0, 0, 0, 0.7);
@@ -158,55 +158,55 @@ div .info{
     transform: translateY(-1px);
 }
 
-hr{
+hr {
     background-color: #000;
 }
 
-main{
+main {
     height: 100%;
     width: 100%;
     background-color: #38383b;
 }
 
-main section{
+main section {
     display: flex;
     gap: 4px;
 }
 
-article{
+article {
     align-items: center;
     justify-content: center;
     /* margin-right: 50px; */
     margin: 25px;
 }
 
-main img{
+main img {
     height: 80dvh;
     border-radius: 60px;
     /* background-size: 20%; */
 }
 
-.section-article{
+.section-article {
     display: flex;
     gap: 50px;
 }
 
-.section-article p{
+.section-article p {
     text-align: center;
     font-size: 20px;
     margin: 5px;
 }
 
-article button{
+article button {
     display: flex;
 }
 
-main h1{
+main h1 {
     text-align: center;
     padding: 20px;
 }
 
-.section-article button{
+.section-article button {
     align-items: center;
     justify-content: center;
     color: #000;
@@ -223,24 +223,26 @@ main h1{
 
 /* Pie de pagina */
 
-footer{
+footer {
     list-style: none;
     padding: 80px 0;
     color: #fff;
     background-color: rgba(0, 0, 0, 0.7);
 }
 
-footer .footer-row{
+footer .footer-row {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    gap: 70px;
 }
 
-.footer-row .footer-links{
+.footer-row .footer-links {
     width: 20%;
     padding: 0 15px;
 }
 
-.footer-links h4{
+.footer-links h4 {
     font-size: 20px;
     color: #fff;
     margin-bottom: 25px;
@@ -249,13 +251,31 @@ footer .footer-row{
     display: inline-block;
 }
 
-.footer-links ul li a{
+.footer-links ul li a {
     font-size: 18px;
     text-decoration: none;
     color: #bbb;
     display: block;
     margin-bottom: 15px;
     transition: all .3s ease;
+}
+
+.footer-redes {
+    font-size: 1.8rem;
+    color: #fff;
+}
+
+.footer-redes a{
+    gap: 10px;
+    color: #fff;
+}
+
+.footer-links a:hover {
+    color: #e71d73;
+}
+
+.footer-redes a:hover {
+    color: #e71d73;
 }
 
 
