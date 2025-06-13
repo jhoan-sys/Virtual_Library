@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    font-family: Montserrat;
+    background-color: #181a20;
+    color: #fff;
+    margin-left: 60px;
+    margin-right: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    margin-top: 40px;
+    display: grid;
+    min-height: 100dvh;
+    grid-template-rows: auto auto auto auto;
+    width: 100%;
+    max-width: 1200px;
+}
+
+nav{
+    box-shadow: 5px 6px 23px 10px rgb(221, 215, 215);
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+nav h4{
+    color: #e71d73;
+}
+
+nav h1, h4{
+    right: 30px;
+    font-size: 50px;
+    display: block;
+}
+
+.login {
+    width: 100%;
+    max-width: 500px;
+    margin: 40px auto 10px; /* Reducido el margen inferior */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login h1 {
+    font-size: 30px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.login input {
+    width: 100%;
+    padding: 12px;
+    background-color: #262a34;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0; /* Eliminado el margen vertical */
+}
+/* Estilo para todos los botones */
+.btns button {
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 20px;
+    font-size: 16px;
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+}
+
+.btns .divBtns {
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px; /* Mayor espacio entre los botones */
+    align-items: center;
+}
+
+/* Estilo específico para el primer botón (Siguiente) */
+.btns .divBtns button:first-child {
+    margin-top: 10px; /* Espacio reducido para el primer botón */
+    background-color: #e71d73;
+    font-weight: bold;
+}
+
+/* Estilos para los botones de Google y Apple (segundo y tercer botón) */
+.btns .btnRegistro, .btns .btn.Apple {
+    background-color: transparent;
+    border: 1px solid #fff;
+    margin-top: 5px; /* Mayor separación para estos botones */
+}
+
+footer {
+    margin-top: auto;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+footer div {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+footer a {
+    color: #e71d73;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
