@@ -265,7 +265,7 @@ footer .footer-row {
     color: #fff;
 }
 
-.footer-redes a{
+.footer-redes a {
     gap: 10px;
     color: #fff;
 }
@@ -279,16 +279,10 @@ footer .footer-row {
 }
 
 
-/* Responsive
-@media (max-width: 768px) {
+/* Mobile muy pequeño */
+@media screen and (max-width: 1024px) {
     .header-top {
-        flex-direction: column;
-        gap: 15px;
-        padding: 15px;
-    }
-
-    .header-right {
-        gap: 20px;
+        padding: 15px 20px;
     }
 
     nav {
@@ -296,31 +290,14 @@ footer .footer-row {
     }
 
     nav a {
-        font-size: 14px;
+        font-size: 15px;
     }
 
     .info h1 {
-        font-size: 2.5rem;
+        font-size: 3rem;
     }
 
-    .info button {
-        padding: 15px 30px;
-        font-size: 16px;
+    .section-article {
+        gap: 20px;
     }
 }
-
-@media (max-width: 480px) {
-    nav {
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 15px;
-    }
-
-    .info h1 {
-        font-size: 2rem;
-    }
-
-    .red {
-        gap: 10px;
-    }
-} */
